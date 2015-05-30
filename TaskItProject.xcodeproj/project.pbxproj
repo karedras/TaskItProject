@@ -16,6 +16,7 @@
 		7CD9C3E31B17ECF30005FCB9 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9C3E21B17ECF30005FCB9 /* TaskDetailViewController.swift */; };
 		7CD9C3E51B1806260005FCB9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9C3E41B1806260005FCB9 /* Date.swift */; };
 		7CD9C3E71B180EA60005FCB9 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD9C3E61B180EA60005FCB9 /* AddTaskViewController.swift */; };
+		7CD9C5B51B1937CB0040C15D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD9C5B41B1937CB0040C15D /* CoreData.framework */; };
 		7CDA232F1B16E19E00F8F5D4 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA232E1B16E19D00F8F5D4 /* TaskCell.swift */; };
 		7CDA23311B16F3CA00F8F5D4 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA23301B16F3CA00F8F5D4 /* TaskModel.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,7 @@
 		7CD9C3E21B17ECF30005FCB9 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 		7CD9C3E41B1806260005FCB9 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		7CD9C3E61B180EA60005FCB9 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		7CD9C5B41B1937CB0040C15D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		7CDA232E1B16E19D00F8F5D4 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		7CDA23301B16F3CA00F8F5D4 /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD9C5B51B1937CB0040C15D /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +108,7 @@
 		7C89156A1B15986B00DDD929 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7CD9C5B41B1937CB0040C15D /* CoreData.framework */,
 				7C89156B1B15986B00DDD929 /* Info.plist */,
 			);
 			name = "Supporting Files";
